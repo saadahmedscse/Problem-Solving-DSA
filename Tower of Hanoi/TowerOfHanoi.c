@@ -8,17 +8,14 @@
 
 void towerOfHanoi(int n, char a, char b, char c);
 
-int main()
-{
+int main(){
     int n = 2;
     towerOfHanoi(n, 'A', 'B', 'C');
     return 0;
 }
 
-void towerOfHanoi(int n, char a, char b, char c)
-{
-    if (n == 1)
-    {
+void towerOfHanoi(int n, char a, char b, char c){
+    if (n == 1){
         printf("Transfered disk %d from %c to %c\n", n, a, c);
         return;
     }
