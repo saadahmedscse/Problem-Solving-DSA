@@ -3,6 +3,7 @@
 /*
     Created by Saad Ahmed on 25 March, 2022
     Time Complexity of this program is "O(2^n)"
+    Space Complexity of this program is "O(n)"
 */
 
 void towerOfHanoi(int n, char a, char b, char c);
